@@ -1,0 +1,221 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;1,400&display=swap');
+
+body .swal2-popup.swal2-modal{
+    font-size: 13px;
+}
+
+#wrapper{
+    min-height: 100vh;
+    position: relative;
+    padding-bottom: 80px;
+}
+
+#header{
+    border-top: 5px solid #1976bc;
+    text-align: center;
+    padding: 20px 30px;
+    margin-bottom: 20px;
+}
+
+#header .logo{
+    display: inline-block;
+    padding: 20px;
+}
+
+#footer{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    padding: 20px;
+    padding-top: 40px;
+}
+
+#footer{
+    font-size: 15px;
+    letter-spacing: 2px;
+    font-style: italic;
+}
+
+#list, #form{
+    margin: 0 auto;
+    max-width: 1100px;
+    padding: 0 20px;
+    color: #222;
+}
+
+#list .title, #form .title{
+    font-size: 30px;
+    letter-spacing: 2px;
+    text-align: center;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+#form .title{
+    text-align: left;
+}
+
+#list .add{
+    display: inline-block;
+    font-size: 12px;
+    text-transform: uppercase;
+    background: #1976bc;
+    padding: 10px 15px;
+    border-radius: 4px;
+    color: #fff;
+    letter-spacing: 1px;
+    font-weight: 700;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-top: 10px;
+}
+
+#list .itens{
+    margin-top: 30px;
+}
+
+#list .itens .item{
+    border-bottom: 1px solid #aaa;
+    padding: 10px 0;
+}
+
+#list .itens .item .id{
+    display: inline-block;
+    vertical-align: middle;
+    width: 5%;
+    font-size: 14px;
+    text-align: center;
+}
+
+#list .itens .item .image{
+    display: inline-block;
+    vertical-align: middle;
+    width: 10%;
+    text-align: center;
+}
+
+#list .itens .item .image img{
+    display: inline-block;
+    max-width: 40px;
+    max-height: 40px;
+    border-radius: 4px;
+}
+
+#list .itens .item .name{
+    display: inline-block;
+    vertical-align: middle;
+    width: 60%;
+    font-size: 14px;
+    text-align: left;
+    padding: 0 15px;
+}
+
+#list .itens .item .birthday{
+    display: inline-block;
+    vertical-align: middle;
+    width: 15%;
+    font-size: 14px;
+    text-align: center;
+
+}
+
+#list .itens .item .actions{
+    display: inline-block;
+    vertical-align: middle;
+    width: 10%;
+    text-align: center;
+}
+
+#list .itens .item .actions .btn{
+    display: inline-block;
+    vertical-align: middle;
+    width: 30px;
+    height: 30px;
+    margin: 0 2px;
+    border-radius: 3px;
+    background: #1976bc;
+    cursor: pointer;
+}
+
+#list .itens .item .actions .btn:before{
+    content: '';
+    display: inline-block;
+    vertical-align: middle;
+    height: 100%;
+    width: 0;
+}
+
+#list .itens .item .actions .btn img{
+    display: inline-block;
+    vertical-align: middle;
+    width: 16px;
+}
+
+#list .itens .item .actions .btn.remove{
+    background: #c73f3f;
+}
+
+#list .itens .no-results{
+    font-size: 15px;
+    text-align: center;
+    letter-spacing: 1px;
+    font-style: italic;
+    margin-top: 80px;
+}
+
+#form .form{
+    display: block;
+    margin-top: 50px;
+}
+
+#form .form .column{
+    display: block;
+    margin-bottom: 20px;
+}
+
+#form .form .column .name{
+    display: block;
+    font-size: 14px;
+    letter-spacing: 1px;
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+
+#form .form .column input[type="text"]{
+    display: block;
+    width: 400px;
+    height: 36px;
+    border: 1px solid #aaa;
+    border-radius: 4px;
+    padding: 0 10px;
+    font-size: 14px;
+    letter-spacing: 1px;
+    color: #222;
+}
+
+#form .form .buttons{
+    margin-top: 60px;
+}
+
+#form .form .buttons .btn{
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 12px;
+    background: #1976bc;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    cursor: pointer;
+    border-radius: 4px;
+    padding: 8px 15px;
+    color: #fff;
+}
+
+#form .form .buttons .btn.back{
+    margin-left: 10px;
+    background: #bdbdbd;
+    color: #222;
+}
